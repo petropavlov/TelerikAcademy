@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Preceding text</title>
+    <style>
+        div.font {
+            font-family: 'Calibri';
+            padding-left: 10px
+        }
+      ol.font {
+        font-family: 'Calibri';
+
+    }
+    ol.pad{
+      padding-left: 35px
+    }
+    </style>
+</head>
+
+<body>
+    <div class="font">Preceding Text</div>
+    <ol type="I" class="font">
+        <li>&nbsp&nbsp&nbsp&nbsp&nbspList Item 1
+            <ol type="a" class="pad">
+                <li>&nbsp&nbsp&nbspNested Item 1.1</li>
+                <li>&nbsp&nbsp&nbspNested Item 1.2</li>
+            </ol>
+        </li>
+        <li>&nbsp&nbsp&nbsp&nbsp&nbspList Item 2
+            <ol type="1" class="pad">
+                <li>&nbsp&nbsp&nbspNested Item 2.1</li>
+                <li>&nbsp&nbsp&nbspNested Item 2.2
+                    <ul style="list-style-type:circle; padding-left: 53px">
+                        <li style="padding-left: 7px">Nested Item 2.2.1</li>
+                        <li style="padding-left: 7px">Nested Item 2.2.2
+                            <ul style="list-style-type:square; padding-left: 41px">
+                                <li style="padding-left: 10px">Nested Item 2.2.2.1</li>
+                                <li style="padding-left: 10px">Nested Item 2.2.2.2</li>
+                            </ul>
+                        </li>
+                        <li style="padding-left: 7px">Nested Item 2.2.3</li>
+                    </ul>
+                </li>
+                <li>&nbsp&nbsp&nbspNested Item 2.3</li>
+            </ol>
+        </li>
+        <li>&nbsp&nbsp&nbsp&nbsp&nbspList Item 3
+            <ul style="list-style-type:disc; padding-left: 35px">
+                <li>&nbsp&nbsp&nbspNested Item 3.1</li>
+                <li>&nbsp&nbsp&nbspNested Item 3.1</li>
+                <li>&nbsp&nbsp&nbspNested Item 3.1</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+
+</html>
