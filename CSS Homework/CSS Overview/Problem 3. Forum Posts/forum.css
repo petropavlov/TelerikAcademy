@@ -1,0 +1,54 @@
+body {
+    background-color: #A9A9A9;
+}
+
+h1:first-of-type {
+    color: #FFFFFF;
+    font-size: 2em;
+}
+
+#first-header {
+    font-size: 3em;
+    text-align: center;
+}
+
+nav, ul, li {
+    text-align: center;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #FFFFFF;
+}
+
+a:hover {
+    background-color: #D3D3D3;
+}
+
+.last-nav {
+    text-decoration: underline;
+}
+
+footer {
+    font-size: 0.8em;
+}
+
+p>a {
+    color: #000000;
+    font-size: 1em;
+}
+
+.last-footer {
+    font-size: 1em;
+    text-align: center;
+}
+
+a:visited {
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+}
