@@ -1,3 +1,9 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, em, img, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
 body {
     background-color: #595959;
     font-family: arial, sans-serif;
@@ -6,6 +12,7 @@ body {
 body h1 {
     color: #9BABB3;
     font-size: 1.5em;
+    padding-left: 4px;
 }
 
 body table tr td {
@@ -15,6 +22,7 @@ body table tr td {
 body table tr td:first-child {
     font-style: italic;
     color: #FFFFFF;
+    padding-left: 4px;
 }
 
 .padding {
