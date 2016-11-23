@@ -1,0 +1,43 @@
+body {
+    background-color: #595959;
+    font-family: arial, sans-serif;
+}
+
+body h1 {
+    color: #9BABB3;
+    font-size: 1.7em;
+}
+
+body table tr {
+    line-height: 30px;
+}
+
+body table tr td:first-child {
+    font-style: italic;
+    color: #FFFFFF;
+    width: 50%;
+}
+
+.yellow-color {
+    color: yellow;
+}
+
+.red-color {
+    color: red;
+}
+
+.grey-color {
+    color: #9BABB3;
+}
+
+.orange-color {
+    color: orange;
+}
+
+#circle {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 50%;
+}
