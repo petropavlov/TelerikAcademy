@@ -5,17 +5,20 @@ body {
 
 body h1 {
     color: #9BABB3;
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 
-body table tr {
-    line-height: 30px;
+body table tr td {
+    padding: 10px;
 }
 
 body table tr td:first-child {
     font-style: italic;
     color: #FFFFFF;
-    width: 50%;
+}
+
+.padding {
+    padding-bottom: 0;
 }
 
 .yellow-color {
@@ -24,6 +27,7 @@ body table tr td:first-child {
 
 .red-color {
     color: red;
+    padding-top: 0;
 }
 
 .grey-color {
