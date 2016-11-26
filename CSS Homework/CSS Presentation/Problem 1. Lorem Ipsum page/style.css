@@ -1,0 +1,29 @@
+body, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: my-custom-font;
+    src: url(myfont.ttf);
+}
+
+p {
+    width: 98%;
+    font-family: Consolas, Edwardian Script ITC;
+    color: #0094ff;
+    padding: 10px;
+}
+
+p::first-line {
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-family: my-custom-font;
+    font-size: 40px;
+}

@@ -1,0 +1,107 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, em, img, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, audio, video {
+    margin: 0;
+    padding: 0;
+}
+
+body div {
+    margin: 5px;
+    border: 1px solid black;
+    width: 455px;
+    background: linear-gradient(#EDF4FC, #D9E4F1);
+}
+
+body div table {
+    background: linear-gradient(#EDF4FC, #D9E4F1);
+    color: #3d3e3f;
+}
+
+body div table, body table tr td {
+    border: 1px solid #a6adad;
+    border-collapse: separate;
+    margin: 10px;
+    border-spacing: 6px;
+    border-radius: 3px;
+}
+
+body div table tr td {
+    text-align: center;
+    font-size: 1em;
+    font-family: arial, sans-serif;
+    width: 29px;
+    height: 23px;
+    padding: 3px;
+    border-style: solid;
+}
+
+.first-td {
+    height: 60px;
+    background: linear-gradient(#E5EEFB, #FEFFFF);
+}
+
+.text-input {
+    width: 97%;
+    height: 100%;
+    padding-top: 20px;
+    vertical-align: bottom;
+    font-size: 2em;
+    text-align: right;
+    outline: none;
+    border: none;
+    background: linear-gradient(#E5EEFB, #FEFFFF);
+}
+
+p:first-child, p:nth-child(3) {
+    word-spacing: 9px;
+    font-family: consolas, monaco, monospace;
+}
+
+p:nth-child(2) {
+    word-spacing: 152px;
+    color: #939292;
+    font-family: consolas, monaco, monospace;
+}
+
+p:nth-child(4) {
+    word-spacing: 161px;
+    color: #939292;
+    font-family: consolas, monaco, monospace;
+}
+
+.bit-spacing {
+    padding-left: 33px;
+}
+
+.second-bit-spacing {
+    padding-left: 25px;
+}
+
+.text-size {
+    font-size: 0.8em;
+}
+
+.cols {
+    width: 70px;
+    text-align: left;
+}
+
+div table tr td span input {
+    margin-right: 0px;
+}
+
+.btn-span {
+    display: block;
+    padding: 3px 0 3px 0;
+    font-size: 0.8em;
+}
+
+.lighter-btn-color {
+    background: linear-gradient(#F5F9FD, #EEF6FB);
+}
+
+.other-btn-color {
+    background: linear-gradient(#F0F6FB, #D7E3F0);
+}
+
+.button:hover {
+    background: linear-gradient(#FEEEDE, #FCF6BC);
+}

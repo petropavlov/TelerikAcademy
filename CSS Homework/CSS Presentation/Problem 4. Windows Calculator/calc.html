@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div>
+        <table>
+            <tr>
+                <td colspan="9" class="first-td"><input type="text" class="text-input" value="8854455"></td>
+            </tr>
+            <tr>
+                <td colspan="9">
+                    <p>0000 0000 0000 0000 0000 0000 0000 0000</p>
+                    <p>63 <span class="bit-spacing">47</span> 32</p>
+                    <p>0000 0000 1000 0111 0001 1011 1011 0111</p>
+                    <p>31 <span class="second-bit-spacing">15</span> 0</p>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="cols">
+                    <span class="btn-span"><input type="radio" id="hex" name="notation" value="hex"> <label for="hex">Hex</label></span>
+                    <span class="btn-span"><input type="radio" id="dec" name="notation" value="dec" checked="checked"> <label for="dec">Dec</label></span>
+                    <span class="btn-span"><input type="radio" id="oct" name="notation" value="oct"> <label for="oct">Oct</label></span>
+                    <span class="btn-span"><input type="radio" id="bin" name="notation" value="bin"> <label for="bin">Bin</label></span>
+                </td>
+                <td></td>
+                <td class="text-size other-btn-color button">Mod</td>
+                <td>A</td>
+                <td class="text-size button">MC</td>
+                <td class="text-size button">MR</td>
+                <td class="text-size button">MS</td>
+                <td class="text-size button">M+</td>
+                <td class="text-size button">M-</td>
+            </tr>
+            <tr>
+                <td class="text-size other-btn-color button">(</td>
+                <td class="text-size other-btn-color button">)</td>
+                <td>B</td>
+                <td class="other-btn-color button">&#8592</td>
+                <td class="text-size other-btn-color button">CE</td>
+                <td class="text-size other-btn-color button">C</td>
+                <td class="text-size other-btn-color button">&#177</td>
+                <td class="text-size">&#8730</td>
+            </tr>
+            <tr>
+                <td class="text-size other-btn-color button">RoL</td>
+                <td class="text-size other-btn-color button">RoR</td>
+                <td>C</td>
+                <td class="lighter-btn-color button">7</td>
+                <td class="lighter-btn-color button">8</td>
+                <td class="lighter-btn-color button">9</td>
+                <td class="other-btn-color button">/</td>
+                <td>%</td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="cols">
+                    <span class="btn-span"><input type="radio" id="qword" name="number" value="qword" checked="checked"> <label for="qword">Qword</label></span>
+                    <span class="btn-span"><input type="radio" id="dword" name="number" value="dword"> <label for="dword">Dword</label></span>
+                    <span class="btn-span"><input type="radio" id="word" name="number" value="word"> <label for="word">Word</label></span>
+                    <span class="btn-span"><input type="radio" id="byte" name="number" value="byte"> <label for="byte">Byte</label></span>
+                </td>
+                <td class="text-size other-btn-color button">Or</td>
+                <td class="text-size other-btn-color button">Xor</td>
+                <td>D</td>
+                <td class="lighter-btn-color button">4</td>
+                <td class="lighter-btn-color button">5</td>
+                <td class="lighter-btn-color button">6</td>
+                <td class="other-btn-color button">*</td>
+                <td class="text-size">1/x</td>
+            </tr>
+            <tr>
+                <td class="text-size other-btn-color button">Lsh</td>
+                <td class="text-size other-btn-color button">Rsh</td>
+                <td>E</td>
+                <td class="lighter-btn-color button">1</td>
+                <td class="lighter-btn-color button">2</td>
+                <td class="lighter-btn-color button">3</td>
+                <td class="other-btn-color button">-</td>
+                <td rowspan="2" class="other-btn-color button">=</td>
+            </tr>
+            <tr>
+                <td class="text-size other-btn-color button">Not</td>
+                <td class="text-size other-btn-color button">And</td>
+                <td>F</td>
+                <td colspan="2" class="lighter-btn-color button">0</td>
+                <td>.</td>
+                <td class="other-btn-color button">+</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
