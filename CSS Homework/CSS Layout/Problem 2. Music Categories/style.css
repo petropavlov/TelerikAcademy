@@ -1,0 +1,50 @@
+body, header, section, footer, article, h1, h2, h3, h4, h5, h6, input, button, label, p, fieldset, nav, ul, li, a, span, strong, em {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    border: 0;
+    border-radius: 7px;
+    background-color: #EEEEEE;
+    width: 32%;
+    font-size: 13px;
+    font-family: arial;
+    margin: 10px;
+    padding: 10px;
+}
+
+h1 {
+    font-weight: normal;
+    font-family: calibri;
+}
+
+.flex-container {
+    display: flex;
+    border: 1px solid grey;
+    background-color: white;
+    width: 100%;
+    margin: 35px 0px 20px 0px;
+    padding: 0px;
+}
+
+.flex-item {
+    flex-flow: row;
+    padding: 15px;
+}
+
+.buttons {
+    vertical-align: bottom;
+    text-align: right;
+    padding-top: 17px;
+}
+
+span {
+    font-weight: bold;
+}
+
+button {
+    border: 0;
+    background-color: white;
+    outline: none;
+}

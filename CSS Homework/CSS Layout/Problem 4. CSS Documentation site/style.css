@@ -1,0 +1,54 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, em, img, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, audio, video {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 1000px;
+    background-color: #F1F1F1;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    font-size: 16px;
+    font-family: arial, sans-serif;
+}
+
+#nav-wrapper {
+    width: 170px;
+}
+
+nav div h2 {
+  font-size: 1.2em;
+  padding: 15px 0px 15px 0px;
+}
+
+nav div h3 {
+  color: darkred;
+}
+
+nav div ul {
+  margin-bottom: 15px;
+}
+
+nav div ul li {
+  list-style-type: none;
+}
+
+nav div ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#main-wrapper {
+    width: auto;
+    border: 1px solid black;
+    padding: 3px;
+    margin-right: 3px;
+}
+
+#aside-wrapper {
+    width: 170px;
+    border: 1px solid black;
+    padding: 3px;
+}
