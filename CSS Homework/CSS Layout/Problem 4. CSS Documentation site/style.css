@@ -19,36 +19,163 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, em, im
 }
 
 nav div h2 {
-  font-size: 1.2em;
-  padding: 15px 0px 15px 0px;
+    font-size: 1.2em;
+    padding: 15px 0px 15px 0px;
+}
+
+nav div h2 img {
+  width: 30px;
+  padding-right: 5px;
 }
 
 nav div h3 {
-  color: darkred;
+    font-size: 1em;
+    color: darkred;
 }
 
 nav div ul {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.nav-last-ul {
+    margin-bottom: 0;
 }
 
 nav div ul li {
-  list-style-type: none;
+    list-style-type: none;
+    font-size: 1em;
 }
 
 nav div ul li a {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 
 #main-wrapper {
     width: auto;
-    border: 1px solid black;
-    padding: 3px;
+    height: 94%;
+    border: 1px solid grey;
+    background-color: white;
+    padding: 5px;
     margin-right: 3px;
+}
+
+main div header h1 {
+    font-size: 1.5em;
+    padding: 15px 0px 15px 0px;
+}
+
+.first-paragraph {
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+}
+
+h4 {
+    background-color: grey;
+    color: white;
+    font-size: 1.2em;
+    padding: 3px;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+main section article div img {
+    float: left;
+    padding-top: 15px;
+}
+
+main section article div p {
+    padding-top: 15px;
+}
+
+main section article div footer {
+    padding: 15px 0 15px 0;
+}
+
+main section article div footer a, main section article footer a, aside div ul li a {
+    color: darkred;
+    display: block;
+}
+
+.article-format {
+    padding: 15px 0 5px 0;
+}
+
+.main-footer {
+    padding: 10px 0px 10px 0px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+button {
+    width: 120px;
+    background-color: white;
+}
+
+.arrow-left {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid black;
+    float: left;
+    margin-top: 2px;
+}
+
+.arrow-right {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid black;
+    float: right;
+    margin-top: 2px;
 }
 
 #aside-wrapper {
     width: 170px;
-    border: 1px solid black;
-    padding: 3px;
+}
+
+aside div ul li {
+    list-style-type: none;
+    border: 1px solid grey;
+    margin-bottom: 5px;
+    padding: 6px;
+    background-color: white;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+aside div ul li p input[type=button] {
+    width: 25px;
+    margin-bottom: 5px;
+}
+
+aside div ul li p input[type=text] {
+    width: 100px;
+}
+
+h5 {
+    background-color: grey;
+    color: white;
+    padding: 2px;
+}
+
+aside div ul li p {
+    padding-top: 7px;
+}
+
+.aside-header {
+    padding: 0 0 5px 0;
+}
+
+aside div ul li>input {
+    width: 80%;
+    height: 40px;
+    margin-bottom: 5px;
+    color: #3bbdf9;
+    background: linear-gradient(to right, rgba(112, 208, 237, 1) 0%, rgba(112, 208, 237, 1) 5%, rgba(183, 222, 237, 1) 15%, rgba(183, 222, 237, 1) 81%, rgba(113, 206, 239, 1) 94%, rgba(113, 206, 239, 1) 100%);
+    border: 1px solid darkgrey;
 }

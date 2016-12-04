@@ -11,7 +11,7 @@
     <div id="wrapper">
         <nav>
             <div id="nav-wrapper">
-                <h2>HOME</h2>
+                <h2><img src="home.png" alt="home">HOME</h2>
                 <div class="">
                     <h3>CSS Basic</h3>
                     <ul>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="">
                     <h3>CSS Quiz</h3>
-                    <ul>
+                    <ul class="nav-last-ul">
                         <li><a href="#">CSS Quiz</a></li>
                         <li><a href="#">CSS Exam</a></li>
                     </ul>
@@ -76,9 +76,9 @@
                 <header>
                     <h1>CSS Tutorial</h1>
                 </header>
-                <p>
-                    <input type="button" name="previous" value="Previous">
-                    <input type="button" name="next" value="Next">
+                <p class="first-paragraph">
+                    <button type="button" name="left"><div class="arrow-left"></div> Previous</button>
+                    <button type="button" name="right">Next <div class="arrow-right"></div></button>
                 </p>
                 <section>
                     <article class="">
@@ -86,7 +86,7 @@
                             <h4>CSS Tutorial</h4>
                         </header>
                         <div>
-                            <img src="" alt="">
+                            <img src="pic.png" alt="css">
                             <p>Save a lot of work with CSS!</p>
                             <p>In our CSS tutorial you will learn how to use CSS to control the style and layout of multiple web pages all at once.</p>
                             <footer>
@@ -96,38 +96,36 @@
                     </article>
                     <article class="">
                         <h4>CSS Examples</h4>
-                        <p>Learn by 70 examples! With our editor, you can edit CSS, and click on a test button to view the result.</p>
-                        <footer>
+                        <p class="article-format">Learn by 70 examples! With our editor, you can edit CSS, and click on a test button to view the result.</p>
+                        <footer class="article-format">
                             <a href="#">Try-It-Yourself!</a>
                         </footer>
                     </article>
                     <article class="">
                         <h4>CSS Reference</h4>
-                        <p>At W3Schools you will dinf a complete CSS reference, listing properties, units of measurements, colors, and more</p>
-                        <footer>
+                        <p class="article-format">At W3Schools you will dinf a complete CSS reference, listing properties, units of measurements, colors, and more</p>
+                        <footer class="article-format">
                             <a href="#">CSS2 Reference</a>
                         </footer>
                     </article>
                     <article class="">
                         <h4>CSS Quiz Test</h4>
-                        <p>Test your CSS skills at W3Schools!</p>
-                        <footer>
+                        <p class="article-format">Test your CSS skills at W3Schools!</p>
+                        <footer class="article-format">
                             <a href="#">Start CSS Quiz!</a>
                         </footer>
                     </article>
                 </section>
-                <footer>
-                    <p>
-                        <input type="button" name="previous" value="Previous">
-                        <input type="button" name="next" value="Next">
-                    </p>
+                <footer class="main-footer">
+                    <button type="button" name="left"><div class="arrow-left"></div> Previous</button>
+                    <button type="button" name="right">Next <div class="arrow-right"></div></button>
                 </footer>
             </div>
         </main>
         <aside>
             <div id="aside-wrapper">
                 <ul>
-                    <li>
+                    <li class="aside-header">
                         <h5>SITE SEARCH</h5>
                         <p>
                             <input type="text" name="search">
@@ -140,7 +138,7 @@
                         <input type="button" name="styles" value="25+ Styles!">
                         <a href="#">Dynamic button image generation</a>
                     </li>
-                    <li>
+                    <li class="aside-header">
                         <h5>WEB HOSTING</h5>
                         <a href="#">15$ Domain name</a>
                         <a href="#">Registration</a>
