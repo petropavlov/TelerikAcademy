@@ -1,0 +1,68 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, em, img, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, audio, video {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    font-size: 16px;
+    background-color: #1E3741;
+    color: #A1A6A5;
+    width: 65%;
+    margin: 5px auto 5px auto;
+    border-radius: 10px;
+    font-family: arial;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation li {
+    list-style-type: none;
+    padding: 15px;
+    margin: 10px 1px 10px 1px;
+    background-color: #4B5F67;
+}
+
+.sport {
+    text-decoration: underline;
+}
+
+.navigation li:first-of-type {
+    background-color: #1E3741;
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    display: flex;
+}
+
+main section ul {
+    display: flex;
+    flex-direction: column;
+    width: 37%;
+    margin-top: 5px;
+}
+
+main section ul li {
+    border-bottom: 1px solid grey;
+    padding: 10px 25px 10px 15px;
+    list-style-type: none;
+}
+
+main section ul li:first-of-type {
+    background-color: #00968C;
+    color: white;
+    border-bottom: none;
+}
+
+main section ul li:last-of-type {
+    border-bottom: none;
+}
+
+img {
+    width: 57%;
+    height: 300px;
+    margin-top: 5px;
+}

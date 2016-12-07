@@ -17,7 +17,6 @@ ul {
 
 .hs:hover {
     text-decoration: underline;
-    color: red;
     cursor: pointer;
 }
 

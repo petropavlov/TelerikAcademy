@@ -1,0 +1,118 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, em, img, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, audio, video {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    font-size: 16px;
+    width: 65%;
+    border: 2px solid black;
+    margin: 5px auto 5px auto;
+    border-radius: 10px;
+}
+
+.laptop-names ul {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.laptop-names ul li {
+    list-style-type: none;
+    padding: 5px;
+    font-size: 1.8em;
+    font-family: arial;
+    text-decoration: underline;
+    color: #62CEF5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.laptops ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    width: 570px;
+}
+
+.laptops ul li {
+    padding: 5px;
+    list-style-type: none;
+}
+
+fieldset {
+    width: 270px;
+    height: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+legend {
+    margin-left: 45px;
+    font-family: arial;
+    font-size: 1.2em;
+    padding: 5px 10px 5px 10px;
+}
+
+.laptop-content {
+    display: flex;
+    font-family: georgia;
+    font-size: 1.2em;
+}
+
+img {
+    width: 70%;
+    padding: 10px;
+}
+
+.column-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 8px;
+    font-family: georgia;
+    font-size: 1.2em;
+}
+
+.parameters ul {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-around;
+    margin-top: 140px;
+}
+
+.parameters ul li {
+    list-style-type: none;
+    text-align: center;
+    font-family: georgia;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+input {
+    margin-top: 20px;
+}
+
+span {
+  padding-left: 35px;
+}
