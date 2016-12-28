@@ -14,4 +14,4 @@ function solve(input) {
 }
 
 solve(['2.5', '2']);
-//adasdaa
+//adasd
